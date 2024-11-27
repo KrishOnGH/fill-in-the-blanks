@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Fill in the blanks",
+    "description": "Places the power of ChatGPT inside your google doc, to both assist you and optimize your time.",
+    "version": "0.0.1",
+    "icons": {
+        "128": "logo.png"
+    },
+    "action": {
+        "default_title": "Fill in the blanks",
+        "default_popup": "popup/popup.html"
+    },
+    "host_permissions": ["https://docs.google.com/*"],
+    "permissions": ["tabs", "activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    }
+}

@@ -1,0 +1,47 @@
+/* popup.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.link {
+    color: #007bff;
+    border-bottom: 1px solid #222;
+}
+
+.page {
+    display: none;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.active {
+    display: block !important;
+}

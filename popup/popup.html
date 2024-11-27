@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Popup</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="NotOnDocs" class="page">
+        <h1>Go to a <span class="link" id="google-doc-link">Google Docs</span> editor page</h1>
+    </div>
+    <!-- Home Page -->
+    <div id="Home" class="page">
+        <h1>Home</h1>
+    </div>
+
+    <!-- Setup Page -->
+    <div id="Setup" class="page">
+        <h1>Setup</h1>
+        <form id="setupForm">
+            <label for="currentApiKey">Current API Key:</label>
+            <input type="text" id="currentApiKey" readonly>
+            <br>
+            <br>
+            <label for="newApiKey">Enter New API Key:</label>
+            <input type="text" id="newApiKey" placeholder="New API Key">
+            <br>
+            <br>
+            <button type="button" id="saveApiKeyButton">Save API Key</button>
+            <br>
+            <br>
+        </form>
+    </div>
+
+    <!-- Error Page -->
+    <div id="Error" class="page">
+        <h1>Error</h1>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
